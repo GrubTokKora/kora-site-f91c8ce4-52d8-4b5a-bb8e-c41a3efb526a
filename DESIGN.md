@@ -35,7 +35,7 @@ palette:
   muted: "#4a5070"
   border: "#d6dbe8"
   application: >
-    Buttons are orange with a #0d1c39 label (≈5.3:1). White on orange (≈3.2:1) is never used for text.
+    Orange buttons carry a WHITE label (owner's choice, 2026-10-01; ≈3.2:1, hover deepens to #c94f00 ≈4.6:1).
     Orange text appears on navy, or at display size; on light grounds the eyebrow uses heat-deep.
 
 composition:
@@ -87,4 +87,3 @@ avoid:
   - opening hours other than "24/7 emergency support"
   - a map embed (service area, not a storefront)
   - stock photography
-  - white text on orange at body size

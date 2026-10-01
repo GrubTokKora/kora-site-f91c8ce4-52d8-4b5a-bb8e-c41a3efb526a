@@ -200,13 +200,14 @@
   }
   .btn svg { width: 1.1rem; height: 1.1rem; flex: none; }
   .btn:active { transform: translateY(1px); }
-  /* Navy label on orange: ≈5.3:1. White on this orange would be ≈3.2:1, so it is never used. */
+  /* White label on orange, per the owner. Hover deepens the orange rather than lightening it, so the
+     white label gains contrast on hover instead of losing it. */
   .btn--heat {
     background-color: var(--color-primary);
-    color: var(--color-accent);
+    color: #fff;
     box-shadow: 0 10px 24px -12px rgb(242 100 0 / 0.75);
   }
-  .btn--heat:hover { background-color: #ff7a1a; box-shadow: 0 14px 30px -12px rgb(242 100 0 / 0.85); transform: translateY(-1px); }
+  .btn--heat:hover { background-color: var(--color-heat-deep); box-shadow: 0 14px 30px -12px rgb(242 100 0 / 0.85); transform: translateY(-1px); }
   .btn--ghost {
     border-color: rgb(239 242 255 / 0.4);
     color: #fff;
