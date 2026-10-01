@@ -4,7 +4,7 @@
 # DESIGN.md — Moulton's Heating & Cooling
 
 archetype: trust-institutional, warmed up
-rationale: A Tampa Bay homeowner with a dead AC wants two things fast: proof this is a real local crew, and a phone number. The site leads with the number and "24/7 emergency support", then shows the business's own job photos (eleven real ones, not stock) and its own words about professionalism and respect inside the home. No reviews, credentials or statistics exist, so none are invented.
+rationale: A Tampa Bay homeowner with a dead AC wants two things fast: proof this is a real local crew, and a way to reach them. The site leads with booking and "24/7 emergency support", then shows the business's own job photos (eleven real ones, not stock), three real Google reviews and its own words about professionalism and respect inside the home. No credentials or statistics exist, so none are invented.
 interaction_level: L1 (scroll reveal, sticky header, popover menu, project filter + lightbox)
 
 personality: [dependable, direct, local, quietly confident]
@@ -82,13 +82,19 @@ texting:
     Book online in the closing contact band (no Call button there; the phone number is in the panel beside it)
     on index, about, services and our-projects, and alone under the phone number in the contact-us panel.
 
+reviews:
+  - Home #reviews: three real 5-star Google reviews, verbatim (Jermaine Levy, Sachae Soso, Erika Li), as
+    equal-height cards with stars, a "Google review" tag and the reviewer's first initial. No dates (they go stale).
+  - Also in the business JSON-LD as `review` entries. No `aggregateRating`.
+
 forms:
   - contact-us.html #contact-form → POST {apiBaseUrl}/api/v1/public/forms/submit, form_type "contact",
     fields name, email, phone (optional), service (optional select), message; reCAPTCHA lazy-loaded
     (immediately when arriving on #quote).
 
 avoid:
-  - reviews, star ratings or testimonials (none are real yet)
+  - an aggregate rating or review count (owner's choice: show only the three real Google reviews)
+  - invented, edited or paraphrased reviews; review text stays verbatim, typos included
   - statistics, years in business, licence numbers, awards (none provided)
   - opening hours other than "24/7 emergency support"
   - a map embed (service area, not a storefront)

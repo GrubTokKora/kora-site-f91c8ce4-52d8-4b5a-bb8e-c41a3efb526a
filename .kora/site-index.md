@@ -12,10 +12,11 @@ sections:
 - `#about` "From the moment we step into your home." — who they are: Professionalism, Respect for your home, Exceeding expectations
 - `#beyond` "One call for the rest of the house, too." — Water heater service, Cleaning & air quality, Commercial HVAC
 - `#projects` "Recent work across Tampa Bay." — four project photos linking to the projects page
+- `#reviews` "What our customers say." — three real Google reviews: Jermaine Levy, Sachae Soso, Erika Li
 - `#process` "Comfortable again in three simple steps." — Call or send a request, We come to you, We get you comfortable
 - `#faq` "Frequently asked questions." — seven questions (also in FAQPage JSON-LD)
 - `#contact` "We would love to hear from you." — Book online and Text now (sms:) buttons; phone, email, service area, social links
-also: HVACBusiness/LocalBusiness (with a ReserveAction pointing at Square booking) and FAQPage JSON-LD in the head.
+also: HVACBusiness/LocalBusiness (with the three reviews and a ReserveAction pointing at Square booking) and FAQPage JSON-LD in the head.
 
 ## about.html → /about
 title: About Moulton's Heating & Cooling | Tampa Bay HVAC
