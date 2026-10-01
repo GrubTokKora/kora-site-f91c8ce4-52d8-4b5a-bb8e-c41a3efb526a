@@ -3,32 +3,71 @@ Structure and the names of what each page offers. Values that change often — p
 address — and body copy are deliberately not recorded here; read the page itself for those.
 
 ## index.html → /
-title: Moulton's Heating & Cooling – HVAC across Tampa Bay
-purpose: Home page for Moulton's Heating & Cooling, showcasing HVAC services, emergency support, and service areas across Tampa Bay.
+title: Moulton's Heating & Cooling | HVAC Services in Tampa Bay, FL
+purpose: Home page: what Moulton's does, its services, recent projects, FAQ and how to get in touch.
 sections:
-- `#hero` — hero introduction
-- `#offerings` "Services" — service offerings: Installation, Maintenance, Repair, Cleaning, Air Conditioning, 24/7 Support
-- `#story` "From the moment we step into your home." — business story and extended services: Water heater service, Dryer vent cleaning, Minor home repairs
-- `#contact` "Call first. We'll take it from there." — contact details and service area: Tampa Bay, Florida, 33601 United States
-- `#cta` — call to action bar
-also: The business telephone number appears in the LocalBusiness schema block and the visible contact section.
+- `#hero` "Tampa Bay's heating & cooling team, ready 24/7." — introduction, call and quote actions, two job photos
+- `#offerings` "Everything your HVAC system needs, from one local team." — Installation, Maintenance, Repair, Cleaning, Air Conditioning, 24/7 Support
+- `#booking` "Book your visit online." — Square booking cards: Diagnostic Service, AC Maintenance, AC Installation
+- `#about` "From the moment we step into your home." — who they are: Professionalism, Respect for your home, Exceeding expectations
+- `#beyond` "One call for the rest of the house, too." — Water heater service, Cleaning & air quality, Commercial HVAC
+- `#projects` "Recent work across Tampa Bay." — four project photos linking to the projects page
+- `#process` "Comfortable again in three simple steps." — Call or send a request, We come to you, We get you comfortable
+- `#faq` "Frequently asked questions." — seven questions (also in FAQPage JSON-LD)
+- `#contact` "We would love to hear from you." — phone, email, service area, social links
+also: HVACBusiness/LocalBusiness (with a ReserveAction pointing at Square booking) and FAQPage JSON-LD in the head.
+
+## about.html → /about
+title: About Moulton's Heating & Cooling | Tampa Bay HVAC
+purpose: Who the business is and how it works.
+sections:
+- `#hero` "A Tampa Bay HVAC team that treats your home like it matters."
+- `#story` "Known for quality, built on trust." — business story and pull quote
+- `#values` "Three promises on every visit." — Professionalism, Respect, Going beyond
+- `#work` "Homes, businesses and everything in between." — Heating & air conditioning, Commercial HVAC, Water heaters, Dryer vent cleaning & minor repairs
+- `#area` "Proudly serving the Tampa Bay area."
+- `#contact` "Ready when you need us."
+
+## services.html → /services
+title: HVAC Services in Tampa Bay | Moulton's Heating & Cooling
+purpose: Detail on every service.
+sections:
+- `#hero` "HVAC services in Tampa Bay, for homes and businesses." — on-page links to each service
+- `#offerings` — `#installation`, `#maintenance`, `#repair`, `#air-conditioning` (photo + text rows)
+- `#cleaning` "Cleaner air, safer home." — dryer vent cleaning; condenser before/after; insulation removal
+- `#water-heaters` "Hot water and the small fixes, handled." — tank & tankless water heaters, minor home repairs
+- `#emergency` "HVAC trouble doesn't wait for business hours." — 24/7 support
+- `#faq` "Good to know." — five service questions (also in FAQPage JSON-LD)
+- `#contact` "Tell us what your system is doing."
+
+## our-projects.html → /our-projects
+title: Our HVAC Projects in Tampa Bay | Moulton's Heating & Cooling
+purpose: Gallery of the business's own job photos.
+sections:
+- `#hero` "Real HVAC work from around Tampa Bay."
+- `#gallery` "Every project reflects our commitment to quality." — eleven photos, filters: Installation, Commercial, Repair & maintenance, Cleaning, Water heaters; lightbox dialog
+- `#contact` "Have a job like these?"
 
 ## contact-us.html → /contact-us
-title: Contact Moulton's Heating & Cooling | Tampa Bay HVAC
-purpose: Provide contact details and an enquiry form for Moulton's Heating & Cooling in Tampa Bay.
+title: Contact Moulton's Heating & Cooling | Tampa Bay HVAC Quote
+purpose: Contact details and the quote request form.
 sections:
-- `#hero` "Get HVAC help in Tampa Bay" — Page introduction and emergency callout: Tampa Bay
-- `#contact` "Call first, email second." — Direct contact details and service offerings overview: Tampa Bay, Heating, ventilation and air conditioning installation, maintenance and repair, dryer vent cleaning, water heater service, minor home repairs
-- `#contact-title` "Book a visit or ask a question" — Enquiry form
-- `#cta` — Call to action
+- `#hero` "Get HVAC help in Tampa Bay."
+- `#contact` — details panel ("Need HVAC assistance? We're here to help.") and the quote form `#quote` ("Get a quote or ask a question.")
+
+## 404.html (reserved, noindex)
+- `#hero` "This page has gone cold."
 
 ## support files
 Files that are not pages. A line marked [content] holds words or data a visitor reads, so a
 change to the site's content can land there; the rest only make the site work or look right.
-- `llms.txt` — Business contact information and service area details for LLMs: Moulton's Heating & Cooling, Tampa Bay, Florida  [content]
-- `robots.txt` — 45 bytes — too small to hold content
-- `sitemap.xml` — 160 bytes — too small to hold content
+- `llms.txt` — Business summary, pages, services and contact details for LLMs  [content]
+- `site.js` — shared scroll reveal, sticky header shadow, mobile menu close
+- `_redirects` — old WordPress placeholder URLs → /
+- `robots.txt`, `sitemap.xml`
 
 ## shared (every page)
-The header, navigation, mobile menu and footer are propagated from index.html to every other page by
-`shell_propagation`. A change to any of them is made on index.html alone and copied automatically.
+The header (navigation, mobile menu) and footer are propagated from index.html to every other page by
+`shell_propagation`. A change to any of them is made on index.html alone and copied automatically. The
+active nav item comes from `body[data-page]`. The header's primary action is "Book online" (Square, new tab), shown from 1024px with the desktop nav (below that it is in the menu sheet);
+"Request a quote" joins it from 1280px.
