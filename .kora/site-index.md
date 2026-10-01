@@ -14,7 +14,7 @@ sections:
 - `#projects` "Recent work across Tampa Bay." — four project photos linking to the projects page
 - `#process` "Comfortable again in three simple steps." — Call or send a request, We come to you, We get you comfortable
 - `#faq` "Frequently asked questions." — seven questions (also in FAQPage JSON-LD)
-- `#contact` "We would love to hear from you." — phone, email, service area, social links
+- `#contact` "We would love to hear from you." — Book online and Text now (sms:) buttons; phone, email, service area, social links
 also: HVACBusiness/LocalBusiness (with a ReserveAction pointing at Square booking) and FAQPage JSON-LD in the head.
 
 ## about.html → /about
@@ -53,7 +53,7 @@ title: Contact Moulton's Heating & Cooling | Tampa Bay HVAC Quote
 purpose: Contact details and the quote request form.
 sections:
 - `#hero` "Get HVAC help in Tampa Bay."
-- `#contact` — details panel ("Need HVAC assistance? We're here to help.") and the quote form `#quote` ("Get a quote or ask a question.")
+- `#contact` — details panel ("Need HVAC assistance? We're here to help.", with a Text now button) and the quote form `#quote` ("Get a quote or ask a question.")
 
 ## 404.html (reserved, noindex)
 - `#hero` "This page has gone cold."

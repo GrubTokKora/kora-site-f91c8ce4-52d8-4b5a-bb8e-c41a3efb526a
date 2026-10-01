@@ -72,9 +72,15 @@ booking:
     Deep links: /DCFSBHTVXSYFIVAJDCXG34LW (Diagnostic Service, 30 min), /SYVCAOO6BJORUQNBRGKPLSBK (AC Maintenance,
     45 min), /WGNJHF6QHLFIIUBNHC6WBA3D (AC Installation, 6 hr). All "price varies".
   - Placements: header primary button from 1024px only (replaces the old phone block; hidden beside the hamburger), mobile menu, home hero (Book + Call),
-    home #booking cards, Services rows (installation/maintenance/repair → their deep links), contact hero +
-    "Prefer to pick a time yourself?" card above the form, and every closing contact band (Book + Call).
+    home #booking cards, Services rows (installation/maintenance/repair → their deep links), the
+    "Prefer to pick a time yourself?" card above the contact form, and every closing contact band (Book + Text now).
+    The contact-us hero carries no buttons.
   - NOT on the 24/7 emergency section: that stays call-only.
+
+texting:
+  - "Text now" (sms:+18138601069, carried over from the old site's homepage Contact section) sits beside
+    Book online in the closing contact band (no Call button there; the phone number is in the panel beside it)
+    on index, about, services and our-projects, and alone under the phone number in the contact-us panel.
 
 forms:
   - contact-us.html #contact-form → POST {apiBaseUrl}/api/v1/public/forms/submit, form_type "contact",
