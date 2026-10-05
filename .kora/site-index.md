@@ -37,7 +37,7 @@ sections:
 - `#offerings` — `#installation`, `#maintenance`, `#repair`, `#air-conditioning` (photo + text rows)
 - `#cleaning` "Cleaner air, safer home." — dryer vent cleaning; condenser before/after; insulation removal
 - `#water-heaters` "Hot water and the small fixes, handled." — tank & tankless water heaters, minor home repairs
-- `#emergency` "HVAC trouble doesn't wait for business hours." — 24/7 support
+- `#reliable-service` "Dependable HVAC service when you need it." — reliable service during standard hours
 - `#faq` "Good to know." — five service questions (also in FAQPage JSON-LD)
 - `#contact` "Tell us what your system is doing."
 
