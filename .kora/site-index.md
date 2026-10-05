@@ -6,7 +6,7 @@ address — and body copy are deliberately not recorded here; read the page itse
 title: Moulton's Heating & Cooling | HVAC Services in Tampa Bay, FL
 purpose: Home page: what Moulton's does, its services, recent projects, FAQ and how to get in touch.
 sections:
-- `#hero` "Tampa Bay's heating & cooling team, ready 24/7." — introduction, call and quote actions, two job photos
+- `#hero` "Reliable AC & Home Services Built Around Your Schedule" — introduction, call and quote actions, two job photos
 - `#offerings` "Everything your HVAC system needs, from one local team." — Installation, Maintenance, Repair, Cleaning, Air Conditioning, 24/7 Support
 - `#booking` "Book your visit online." — Square booking cards: Diagnostic Service, AC Maintenance, AC Installation
 - `#about` "From the moment we step into your home." — who they are: Professionalism, Respect for your home, Exceeding expectations
