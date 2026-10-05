@@ -7,14 +7,14 @@ title: Moulton's Heating & Cooling | HVAC Services in Tampa Bay, FL
 purpose: Home page: what Moulton's does, its services, recent projects, FAQ and how to get in touch.
 sections:
 - `#hero` "Reliable AC & Home Services Built Around Your Schedule" — introduction, call and quote actions, two job photos
-- `#offerings` "Everything your HVAC system needs, from one local team." — Installation, Maintenance, Repair, Cleaning, Air Conditioning, 24/7 Support
+- `#offerings` "Everything your HVAC system needs, from one local team." — Installation, Maintenance, Repair, Cleaning, Air Conditioning
 - `#booking` "Book your visit online." — Square booking cards: Diagnostic Service, AC Maintenance, AC Installation
 - `#about` "From the moment we step into your home." — who they are: Professionalism, Respect for your home, Exceeding expectations
 - `#beyond` "One call for the rest of the house, too." — Water heater service, Cleaning & air quality, Commercial HVAC
 - `#projects` "Recent work across Tampa Bay." — four project photos linking to the projects page
 - `#reviews` "What our customers say." — three real Google reviews: Jermaine Levy, Sachae Soso, Erika Li
 - `#process` "Comfortable again in three simple steps." — Call or send a request, We come to you, We get you comfortable
-- `#faq` "Frequently asked questions." — seven questions (also in FAQPage JSON-LD)
+- `#faq` "Frequently asked questions." — six questions (also in FAQPage JSON-LD)
 - `#contact` "We would love to hear from you." — Book online and Text now (sms:) buttons; phone, email, service area, social links
 also: HVACBusiness/LocalBusiness (with the three reviews and a ReserveAction pointing at Square booking) and FAQPage JSON-LD in the head.
 

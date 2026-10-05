@@ -1,6 +1,6 @@
 # Moulton's Heating & Cooling
 
-> Moulton's Heating & Cooling provides trusted HVAC services across the Tampa Bay, Florida area. They offer reliable heating and cooling solutions for residential and commercial customers.
+> Moulton's Heating & Cooling — Trusted HVAC service across the Tampa Bay area
 
 ## Services
 - Installation
@@ -8,11 +8,6 @@
 - Repair
 - Cleaning
 - Air Conditioning
-- 24/7 Support
-
-### Signature
-- Installation
-- Maintenance
 
 ## Location & Contact
 - Address: Tampa Bay, Florida, 33601 United States
