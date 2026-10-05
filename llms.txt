@@ -1,31 +1,29 @@
 # Moulton's Heating & Cooling
 
-> Moulton's Heating & Cooling — Trusted HVAC service across the Tampa Bay area. HVAC installation, maintenance and repair for homes and businesses, plus dryer vent cleaning, water heater service and minor home repairs, with 24/7 emergency support.
-
-## Pages
-- [Home](/): overview, services, recent projects, FAQ, contact
-- [Services](/services): installation, maintenance, repair, air conditioning, cleaning, water heaters, 24/7 emergency support
-- [About](/about): who we are, how we work, service area
-- [Projects](/our-projects): photos of recent jobs across Tampa Bay
-- [Contact](/contact-us): phone, email and quote request form
+> Moulton's Heating & Cooling provides trusted HVAC services across the Tampa Bay, Florida area. They offer reliable heating and cooling solutions for residential and commercial customers.
 
 ## Services
-- HVAC installation (residential & commercial, including rooftop units)
-- HVAC maintenance
-- HVAC repair
-- Air conditioning
-- Dryer vent cleaning
-- Water heater service (tank & tankless)
-- Minor home repairs
-- 24/7 emergency support
+- Installation
+- Maintenance
+- Repair
+- Cleaning
+- Air Conditioning
+- 24/7 Support
 
-## Online booking
-- Book online (Square Appointments): https://book.squareup.com/appointments/8xou14spkf702r/location/LQJVNXXJBW9Q4/services
-- Bookable: Diagnostic Service (30 min), AC Maintenance (45 min), AC Installation (6 hr); price varies
+### Signature
+- Installation
+- Maintenance
 
 ## Location & Contact
-- Service area: Tampa Bay, Florida, 33601 United States and surrounding areas
+- Address: Tampa Bay, Florida, 33601 United States
 - Phone: +1-813-860-1069
 - Email: Moulton.ac@gmail.com
-- Instagram: https://www.instagram.com/moultons_heating_cooling/
-- TikTok: https://www.tiktok.com/@moultons_heating_cooling
+
+## Hours
+- Monday: 8:00 AM - 6:00 PM
+- Tuesday: 8:00 AM - 6:00 PM
+- Wednesday: 8:00 AM - 6:00 PM
+- Thursday: 8:00 AM - 6:00 PM
+- Friday: 8:00 AM - 6:00 PM
+- Saturday: 8:00 AM - 5:00 PM
+- Sunday: 8:00 AM - 5:00 PM

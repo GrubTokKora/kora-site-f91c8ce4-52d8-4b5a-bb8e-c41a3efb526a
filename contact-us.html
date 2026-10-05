@@ -61,6 +61,29 @@
     "postalCode": "33601",
     "addressCountry": "US"
   },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "08:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "08:00",
+      "closes": "17:00"
+    }
+  ],
   "areaServed": {
     "@type": "Place",
     "name": "Tampa Bay, Florida and surrounding areas"
@@ -318,7 +341,11 @@
         </div>
         <div class="reach__row">
           <dt class="reach__label">Hours</dt>
-          <dd class="reach__dd reach__area"><span>Emergency support 24 hours a day, 7 days a week</span></dd>
+          <dd class="reach__dd reach__area">
+            <span>Mon &ndash; Fri: 8:00 AM &ndash; 6:00 PM</span>
+            <span>Sat &ndash; Sun: 8:00 AM &ndash; 5:00 PM</span>
+            <span class="muted-line">24/7 emergency support</span>
+          </dd>
         </div>
         <div class="reach__row">
           <dt class="reach__label">Follow our work</dt>
@@ -432,7 +459,12 @@
           <span>Tampa Bay, Florida 33601</span>
           <span>and surrounding areas</span>
         </address>
-        <p class="footer-hours"><strong>Emergency support</strong>24 hours a day, 7 days a week</p>
+        <p class="footer-hours">
+          <strong>Hours</strong>
+          <span>Mon &ndash; Fri: 8:00 AM &ndash; 6:00 PM</span><br>
+          <span>Sat &ndash; Sun: 8:00 AM &ndash; 5:00 PM</span>
+        </p>
+        <p class="footer-note">24/7 emergency support</p>
       </div>
       <nav aria-label="Footer">
         <p class="footer-label">Pages</p>
