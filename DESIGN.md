@@ -63,7 +63,7 @@ images:
   - project photos: uploaded to Kora's Azure store (v2-uploads/…/<uuid>-<descriptive-name>-{800,1600}.webp),
     srcset 800w / 1200w (Kora caps uploads at 1200x1600). No images are stored in the repo.
   - Azure (kept): logo 1790854600_lmhn04.png (180px square badge), favicon 1790854600_jt32cx.png,
-    og:image 1790854600_uccsg5.webp ("Cooling experts, available 24/7" promo graphic)
+    og:image 1790854600_lmhn04.png (logo, used for link sharing previews)
   - skipped: 88ec5f6d… (corrupt on the old server; also the Azure 1790854600_21a7h1.jpg copy of it)
 
 booking:
