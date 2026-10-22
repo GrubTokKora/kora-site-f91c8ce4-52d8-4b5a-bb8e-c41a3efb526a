@@ -22,8 +22,9 @@
   --color-muted: #4a5070;
   --color-border: #d6dbe8;
 
-  --font-heading: "Poppins", sans-serif;
-  --font-body: "Open Sans", sans-serif;
+  --font-heading: var(--kora-font-heading, "Poppins"), sans-serif;
+  --font-body: var(--kora-font-body, "Open Sans"), sans-serif;
+  --font-accent: var(--kora-font-accent, var(--font-heading)), var(--font-heading);
 
   /* Type scale: 1.25 ratio from a 17px body. */
   --text-small: 0.9375rem;
